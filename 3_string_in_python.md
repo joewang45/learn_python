@@ -56,8 +56,8 @@
 		* .rstrip
 	+ .translate(转换表,"需要删除的字符串")：关于转换表的生成，可以调用 string 模块的 maketrans 函数
 	```python
-	from string import maketrans
-	table_1 = maketrans ("cs","kz") # maketrans 函数会将 ASCII 字符集中的字符"c"和"s"，替换为"k"和"z"，返回一个新的字符集
+	table_1 = str.maketrans ("cs","kz") 
+	# maketrans 函数会将 ASCII 字符集中的字符"c"和"s"，替换为"k"和"z"，返回一个新的字符集
 	"this is incredibly cool!".translate(table_1) # 将会返回“翻译”过的字符串
 	# translate 经常用于将非英语文字转化成英语的工作
 	```
