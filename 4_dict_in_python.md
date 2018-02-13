@@ -30,7 +30,7 @@
 ```python
 mitarbeiter_stahlbau = {
  "Julian" : {  "Geburtstag" : "03.Jan",  "Telefon" : 3375 },
- "Angelika" : {  "Geburtstag" "17.Feb": ,   "Telefon" :  3370},
+ "Angelika" : {  "Geburtstag" :"17.Feb" ,   "Telefon" :  3370},
  "Hendrik" : {  "Geburtstag" : "25.Juni",  "Telefon" : 3368 },
  "Niccolo" : {  "Geburtstag" : "16.Juli",   "Telefon" : 3680 },
  "Ding" : {  "Geburtstag" : "10.Juli" , "Telefon" :  3378},
@@ -47,8 +47,7 @@ name = input ("Wessen Informationen suchen Sie: ")
 
 request = input ("Geburtstag (g) oder Telefon-Nr. (t):")
 if request == "g": key = "Geburtstag", art = "Der"
-else if request == "t": key = "Telefon", art = "Die"
-else : print ("laden... \n")
+if request == "t": key = "Telefon", art = "Die"
 
 if name in mitarbeiter_stahlbau : 
  print ("%s %s von %s ist %s." % (art, key, name, mitarbeiter_stahlbau[name][key]))
