@@ -7,8 +7,15 @@
   - 字典中的数据没有顺序
   - 键/数据的组合，又称作 “项”
 - 字典的定义
-  - 直接定义：
-  ```python
+  - 直接定义：使用花括号和冒号
+  ```python
   phonebook = {"Anzhi":3369, "Ding":3378}
   tel_anzhi = phonebook ["Anzhi"]
   ```
+  - 使用 dict 函数，将由 (键,值) 元组构成的序列转化为字典
+  ```python
+  items = [("name","Anzhi"),("age",29)]
+  dict_items_1 = dict(items)
+  dict_items_2 = dict (name = "Anzhi", age = 29)
+  ```
+  
