@@ -9,6 +9,6 @@
 - 字典的定义
   - 直接定义：
   ```python
-  phonebook = {"Anzhi":3369, "Ding":3378}
+  phonebook = {"Anzhi":3369, "Ding":3378}
   tel_anzhi = phonebook ["Anzhi"]
   ```
