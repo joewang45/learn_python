@@ -9,7 +9,6 @@
 - 字典的定义
   - 直接定义：
   ```python
-  # 字典的定义采用花括号
   phonebook = {"Anzhi":3369, "Ding":3378}
   tel_anzhi = phonebook ["Anzhi"]
   ```
