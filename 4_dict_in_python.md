@@ -43,7 +43,7 @@
    "Anzhi" : {"Geburtstag" : "10.Dez", "Telefon" : 3369 },
    "Cong" : {"Geburtstag" : "28.Dez", "Telefon" : 3335 }
   }
-  name = input ("Wessen Informationen suchen Sie: ")
+  name = input ("Wessen Informationen suchen Sie: ").title()
   if name in mitarbeiter_stahlbau : 
       request = input ("Geburtstag (g) oder Telefon-Nr. (t):")
       if request == "g":
